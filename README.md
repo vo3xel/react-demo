@@ -15,7 +15,8 @@ npm install -g yarn@berry
 ```
 * Visual Studio Code with extensions
     * Docker
-
+    * Debugger for Chrome
+    * ESLint
 
 ## Visual studio code debugger settings
 
@@ -23,9 +24,6 @@ Create .vscode/launch.json within project root.
 
 ```yaml
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -38,8 +36,6 @@ Create .vscode/launch.json within project root.
     ]
 }
 ```
-
-
 
 # Application bootstrap
 
