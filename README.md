@@ -37,6 +37,17 @@ Create .vscode/launch.json within project root.
 }
 ```
 
+## Folder structure
+
+* actions: holds all reducer actions, naming => redux reducer slice + actions . js (example: user.actions.js)
+* assets: holds all media, images, ...
+* components: holds all react components and related files
+* config: holds configuration files e.g. dev.json
+* constants: holds all constants, naming for redux actions => redux reducer slice + constants . js (example: user.constants.js)
+* helpers: holds all helper functions, which are not tied to any component, e.g. fake-backend
+* reducers: holds all reducers, naming => redux reducer slice + reducer . js (example: user.reducer.js)
+* services: holds all backend request functionality, naming => reduc reducer slice + service . js (example: user.service.js)
+
 # Application bootstrap
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
