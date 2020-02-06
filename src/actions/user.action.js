@@ -5,13 +5,13 @@ import { history } from '../helpers'
 
 const getUserDetails = (userId) => {
     
-    const request = (userId) => { type: userConstants.GET_USER_DETAILS_REQUEST, { userId } }
+    const request = (userId) => { type: userConstants.GET_USER_DETAILS_REQUEST, userId }
     const success = (user) => { type: userConstants.GET_USER_DETAILS_SUCCESS, user }
     const failure = (error) => { type: userConstants.GET_USER_DETAILS_FAILURE, error }
 
     return dispatch => {
-        dispatch(request({ username }))
-        userService.login(username, password)
+        dispatch(request({ userId }))
+        userService.getUserDetails(userId)
             .then(
                 user => { 
                     dispatch(success(user))
