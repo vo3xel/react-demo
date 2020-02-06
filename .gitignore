@@ -25,3 +25,6 @@ yarn-error.log*
 #yarn Zero-installs enabled
 .yarn/unplugged
 .yarn/build-state.yml
+
+# Editor specific files
+.vscode
