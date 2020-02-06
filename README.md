@@ -1,3 +1,48 @@
+
+# react-demo
+
+This repo holds a state-of-the-art react application with react 16, redux and a fake-backend.
+
+# Setup
+
+## Environment
+
+* Docker Community Edition (https://www.docker.com/)[https://www.docker.com/]
+* NodeJS LTS version (https://nodejs.org/en/)[https://nodejs.org/en/]
+* Yarn 2 - install with
+```shell
+npm install -g yarn@berry
+```
+* Visual Studio Code with extensions
+    * Docker
+
+
+## Visual studio code debugger settings
+
+Create .vscode/launch.json within project root.
+
+```yaml
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
+```
+
+
+
+# Application bootstrap
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
