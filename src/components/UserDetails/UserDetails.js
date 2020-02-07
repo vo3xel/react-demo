@@ -1,5 +1,6 @@
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector, useDispatch, useEffect } from 'react-redux'
 import { alertActions } from '../../actions'
+import { userActions } from '../../actions'
 
 const UserDetails = () => {
 
@@ -7,8 +8,12 @@ const UserDetails = () => {
 
     const { userId } = useSelector(state => state.user)
 
+    useEffect(() => {
+        dispatch(userActions.setUserId(1))
+    })
+
     return (
-        <div></div>
+        <div>User details for user ({userId}):</div>
     )
 }
 

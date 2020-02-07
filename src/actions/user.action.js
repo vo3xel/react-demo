@@ -25,6 +25,9 @@ const getUserDetails = (userId) => {
     }
 }
 
+const setUserId = (userId) => { type: userConstants.SET_USER_ID, { userId } } 
+
 export const userActions = {
-    getUserDetails
+    getUserDetails,
+    setUserId
 }

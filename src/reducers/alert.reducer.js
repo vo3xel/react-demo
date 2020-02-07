@@ -13,7 +13,7 @@ import { alertConstants } from '../constants'
             message: action.message
         };
     case alertConstants.CLEAR:
-        return {};
+        return {}
     default:
         return state
     }
