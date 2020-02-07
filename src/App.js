@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import logo from './logo.svg'
 import './App.css'
 import { useDispatch, useSelector } from 'react-redux'
+import { userActions } from './actions'
+import { UserDetails } from './components/UserDetails'
 const App = () => {
 
-  const { userID } = useSelector(state => state.user)
+  const { userId } = useSelector(state => state.user)
 
   const dispatch = useDispatch()
 
@@ -12,8 +14,9 @@ const App = () => {
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" />
       <p>Edit <code>src/App.js</code> and save to reload.</p>
-      <h1>Component example get user details for userid: { userID } </h1>
-      <button onClick={() => dispatch()}>get</button>
+      <h1>Component example get user details for userid: { userId } </h1>
+      <UserDetails />
+      <button onClick={() => dispatch(userActions.getUserDetails(userId))}>get</button>
     </div>
   )
 }

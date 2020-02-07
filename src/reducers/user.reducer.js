@@ -1,6 +1,6 @@
 import { userConstants } from '../constants'
 
-const user = (state = { userID: 1 }, action) => {
+const user = (state = {userId: 1}, action) => {
     switch (action.type) {
     case userConstants.GET_USER_DETAILS_REQUEST:
         return {

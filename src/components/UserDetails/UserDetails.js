@@ -1,20 +1,17 @@
-import { useSelector, useDispatch, useEffect } from 'react-redux'
+import { useSelector } from 'react-redux'
+import React from 'react'
 import { alertActions } from '../../actions'
 import { userActions } from '../../actions'
 
-const UserDetails = () => {
-
-    const dispatch = useDispatch()
+export const UserDetails = () => {
 
     const { userId } = useSelector(state => state.user)
-
-    useEffect(() => {
-        dispatch(userActions.setUserId(1))
-    })
+    const { user } = useSelector(state => state.user)
 
     return (
-        <div>User details for user ({userId}):</div>
+        <div>User details for user ({userId}):
+        <p>{ JSON.stringify(user) }</p>
+        </div>
+        
     )
 }
-
-export default UserDetails
