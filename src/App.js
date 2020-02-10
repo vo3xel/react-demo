@@ -10,6 +10,10 @@ const App = () => {
 
   const dispatch = useDispatch()
 
+  useEffect(() => {
+    
+  });
+
   return (
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" />

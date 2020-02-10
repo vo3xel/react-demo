@@ -5,10 +5,8 @@ export const configureFakeBackend = () => {
     window.fetch = function (url, opts) {
         return new Promise((resolve, reject) => {
             // wrap in timeout to simulate server api call
-            console.log(url)
             setTimeout(() => {
                 // get fake user information
-                console.log(url)
                 if (url.endsWith('/user/1') && opts.method === 'GET') {
                     console.log("HIT")
                     let user = { id: 1, email: 'vo3xel@gmail.com', firstName: 'Michael', lastName: 'Spitzer'}

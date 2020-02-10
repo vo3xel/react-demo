@@ -1,7 +1,5 @@
 import { useSelector } from 'react-redux'
 import React from 'react'
-import { alertActions } from '../../actions'
-import { userActions } from '../../actions'
 
 export const UserDetails = () => {
 
