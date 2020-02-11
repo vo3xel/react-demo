@@ -1,6 +1,6 @@
-import { userService } from '../services/user.service'
+import { userService } from '../services'
 
-export const handleResponse = (response) => {
+export default (response) => {
     return response.text().then(text => {
         const data = text && JSON.parse(text)
         if (!response.ok) {

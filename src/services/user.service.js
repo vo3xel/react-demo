@@ -4,6 +4,4 @@ import { handleResponse } from '../helpers'
 
 const getUserDetails = (userId) => fetch(`${config.get['apiUrl']}/user/${userId}`, requestOptions.getRequest).then(handleResponse)
 
-export const userService = {
-    getUserDetails
-}
+export default { getUserDetails }

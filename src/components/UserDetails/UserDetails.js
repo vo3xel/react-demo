@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux'
 import React from 'react'
 
-export const UserDetails = () => {
+export default () => {
 
     const { userId } = useSelector(state => state.user)
     const { user } = useSelector(state => state.user)

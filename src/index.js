@@ -7,7 +7,7 @@ import { store } from './helpers'
 import { configureFakeBackend } from './helpers'
 import config from 'react-global-configuration'
 import configuration from './config/dev'
-import App from './App'
+import { default as App } from './App'
 
 const rootElement = document.getElementById('root')
 

@@ -6,8 +6,4 @@ const error = (message) => ({ type: alertConstants.ERROR, message })
 
 const clear = () => ({ type: alertConstants.CLEAR })
 
-export const alertActions = {
-    success,
-    error,
-    clear
-}
+export default { success, error, clear }

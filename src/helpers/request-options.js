@@ -1,10 +1,7 @@
-import { authHeader } from '../helpers'
+import { authHeader } from './'
 
-const getRequest = {
-    method: 'GET',
-    headers: authHeader()
-}
+const getRequest = { method: 'GET', headers: authHeader() }
 
-export const requestOptions = {
-    getRequest
-}
+const postRequest = (body = '') => ({ method: 'POST', headers: { ...authHeader(), ...{ 'Content-Type': 'application/json' }}, body })
+
+export default { getRequest, postRequest }

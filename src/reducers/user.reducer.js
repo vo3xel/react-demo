@@ -1,6 +1,6 @@
 import { userConstants } from '../constants'
 
-const user = (state = {userId: 1}, action) => {
+export default (state = {userId: 1}, action) => {
     switch (action.type) {
     case userConstants.GET_USER_DETAILS_REQUEST:
         return { ...state, loading: true }
@@ -18,5 +18,3 @@ const user = (state = {userId: 1}, action) => {
         return state
     }
 }
-
-export default user

@@ -1,7 +1,7 @@
 import { userConstants } from '../constants'
-import { userService } from '../services/user.service'
-import { alertActions } from '.'
+import { userService } from '../services'
 import { history } from '../helpers'
+import { alertActions } from './'
 
 const getUserDetails = (userId) => {
     
@@ -27,7 +27,4 @@ const getUserDetails = (userId) => {
 
 const setUserId = (userId) => ({ type: userConstants.SET_USER_ID, userId })
 
-export const userActions = {
-    getUserDetails,
-    setUserId
-}
+export default { getUserDetails, setUserId }
