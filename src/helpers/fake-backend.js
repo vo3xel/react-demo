@@ -1,4 +1,4 @@
-const warnFakeBackend = (url) => console.warn(`FAKE BACKEND: [${url}]`)
+const fakeBackendInfo = (url) => console.log(`FAKE BACKEND: [${url}]`)
 
 const users = [{ id: 1, userName: 'vo3xel', password: '123456', email: 'vo3xel@gmail.com', firstName: 'Michael', lastName: 'Spitzer'}]
 
@@ -11,7 +11,7 @@ export default () => {
 
                 // authenticate
                 if (url.endsWith('/auth') && opts.method === 'POST') {
-                    warnFakeBackend(url)
+                    fakeBackendInfo(url)
                     // get parameters from post request
                     let params = JSON.parse(opts.body)
 
@@ -41,15 +41,14 @@ export default () => {
 
                 // get fake user information
                 if (url.endsWith('/user/1') && opts.method === 'GET') {
-                    warnFakeBackend(url)
+                    fakeBackendInfo(url)
                     resolve({ ok: true, text: () => Promise.resolve(JSON.stringify(users[0])) })
                     return
                 }
 
                 // pass through any requests not handled above
-                warnFakeBackend(url + " - request NOT handled by fake-backend => passed through")
+                fakeBackendInfo(url + " - request NOT handled by fake-backend => passed through")
                 realFetch(url, opts).then(response => resolve(response))
-
             }, 500)
         })
     }

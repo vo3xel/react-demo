@@ -6,7 +6,7 @@ import { Provider } from 'react-redux'
 import { store } from './helpers'
 import { configureFakeBackend } from './helpers'
 import config from 'react-global-configuration'
-import configuration from './config/dev'
+import { configuration } from './config/dev'
 import { default as App } from './App'
 
 const rootElement = document.getElementById('root')
@@ -14,7 +14,8 @@ const rootElement = document.getElementById('root')
 config.set(configuration)
 
 if(config.get('configureFakeBackend')){
-    console.warn("WARNING: fake backend activated for dev config !!!")
+    console.warn("WARNING: fake backend activated with dev config !!!")
+    console.log(`fake backend URL: ${config.get('apiUrl')}`)
     configureFakeBackend();
 }
 
