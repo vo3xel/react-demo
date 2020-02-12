@@ -1,7 +1,7 @@
 
 # react-demo
 
-This repo holds a state-of-the-art react application with react 16, redux and a fake-backend.
+This repo holds a dockerized state-of-the-art react application with react 16, JWT token, redux, fake-backend, styled components and react testing library.
 
 # Setup
 

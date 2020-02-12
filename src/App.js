@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import logo from './logo.svg'
 import './App.css'
 import { useDispatch, useSelector } from 'react-redux'
@@ -15,7 +15,7 @@ export default () => {
   return (
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" />
-      <h1>Login/Logout with JWT, fake-backend, redux and react testing library.</h1>
+      <h1>A dockerized state-of-the-art react application with react 16, JWT token, redux, fake-backend, styled components and react testing library</h1>
       { userId && <UserDetails /> }
       <div>
       { userId? <button onClick={() => dispatch(authActions.logout())}>logout</button>
