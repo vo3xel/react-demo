@@ -8,20 +8,16 @@ export default (state = initialState, action) => {
         
     case authConstants.LOGIN_REQUEST:
         return {
-        loggingIn: true,
-        user: action.user
+            loggingIn: true,
         }
 
     case authConstants.LOGIN_SUCCESS:
         return {
             loggedIn: true,
-            user: action.user
+            userId: action.user.id
         }
 
     case authConstants.LOGIN_FAILURE:
-        return { }
-
-    case authConstants.LOGOUT:
         return { }
 
     default:

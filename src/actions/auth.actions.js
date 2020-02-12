@@ -1,5 +1,4 @@
 import { authConstants } from '../constants'
-import { userConstants } from '../constants'
 import { authService } from '../services'
 import { history } from '../helpers'
 import { alertActions } from './'
@@ -29,7 +28,7 @@ const login = (username, password) => {
 
 const logout = () => {
     authService.logout();
-    return { type: userConstants.LOGOUT }
+    return { type: authConstants.LOGOUT }
 }
 
 export default { login, logout }

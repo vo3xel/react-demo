@@ -1,6 +1,6 @@
 import { userConstants } from '../constants'
 
-export default (state = {userId: 1}, action) => {
+export default (state = {}, action) => {
     switch (action.type) {
     case userConstants.GET_USER_DETAILS_REQUEST:
         return { ...state, loading: true }

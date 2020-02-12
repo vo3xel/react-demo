@@ -8,19 +8,24 @@ import { UserDetails } from './components/UserDetails'
 
 export default () => {
 
-  const { userId } = useSelector(state => state.user)
-  const { user } = useSelector( state => state.user)
+  const { userId } = useSelector(state => state.auth)
 
   const dispatch = useDispatch()
 
   return (
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" />
-      <p>Edit <code>src/App.js</code> and save to reload.</p>
-      <h1>Component example get user details for userid: { userId } </h1>
-      <UserDetails />
-      <button onClick={() => dispatch(authActions.login('vo3xel', '123456'))}>authenticate user</button>
-      { user && <button onClick={() => dispatch(userActions.getUserDetails(user.id))}>get details of authenticated user</button> }
+      <h1>Login/Logout with JWT, fake-backend, redux and react testing library.</h1>
+      { userId && <UserDetails /> }
+      <div>
+      { userId? <button onClick={() => dispatch(authActions.logout())}>logout</button>
+        :
+        <button onClick={() => dispatch(authActions.login('vo3xel', '123456'))}>login user: vo3xel with password: 123456</button>
+      }  
+      </div>
+      <div>
+        { userId && <button onClick={() => dispatch(userActions.getUserDetails(userId))}>get details of authenticated user</button> }
+      </div>
     </div>
   )
 }
