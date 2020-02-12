@@ -8295,6 +8295,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"lodash.isplainobject@npm:^4.0.6":
+  version: 4.0.6
+  resolution: "lodash.isplainobject@npm:4.0.6"
+  checksum: ef83a00aa56abb2f8d4f4b96571f7b3dd030df291299f3cfae80b89b69c89eb07635a1a3343f4ec145e4a59a3e1677d6140d82d518c10fd0d2e991107faf106e
+  languageName: node
+  linkType: hard
+
 "lodash.memoize@npm:^4.1.2":
   version: 4.1.2
   resolution: "lodash.memoize@npm:4.1.2"
@@ -11091,6 +11098,7 @@ fsevents@^1.2.7:
     react-scripts: 3.3.1
     redux: ^4.0.5
     redux-logger: ^3.0.6
+    redux-mock-store: ^1.5.4
     redux-thunk: ^2.3.0
     styled-components: ^5.0.1
   languageName: unknown
@@ -11395,6 +11403,15 @@ fsevents@^1.2.7:
   dependencies:
     deep-diff: ^0.3.5
   checksum: 92cfef73bbb694e3bf042176a31d67e95c5acbe44989612acbc5a3cea0b33c907f500e700707f8e9aa6f355f471f989aaae8abf9551fd55ca494c98d3526f93c
+  languageName: node
+  linkType: hard
+
+"redux-mock-store@npm:^1.5.4":
+  version: 1.5.4
+  resolution: "redux-mock-store@npm:1.5.4"
+  dependencies:
+    lodash.isplainobject: ^4.0.6
+  checksum: 22bca29e821734149213e77a044c3b45c2b63265546919718058adf40ecb25459307ca2fbeb4ec02c063356fb0c5a798193978805894158a424fc6525c78f1a0
   languageName: node
   linkType: hard
 
