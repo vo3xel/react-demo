@@ -13,24 +13,24 @@ export default () => {
                 if (url.endsWith('/auth') && opts.method === 'POST') {
                     warnFakeBackend(url)
                     // get parameters from post request
-                    let params = JSON.parse(opts.body);
+                    let params = JSON.parse(opts.body)
 
                     // find if any user matches login credentials
                     let filteredUsers = users.filter(user => {
-                        return user.userName === params.userName && user.password === params.password;
+                        return user.userName === params.userName && user.password === params.password
                     });
 
                     if (filteredUsers.length) {
                         // if login details are valid return user details and fake jwt token
-                        let user = filteredUsers[0];
+                        let user = filteredUsers[0]
                         let responseJson = {
                             id: user.id,
                             userName: user.userName,
                             firstName: user.firstName,
                             lastName: user.lastName,
                             token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NzkzNTQ4ODMsImlhdCI6MTU3OTI2ODQ3OCwic3ViIjoyfQ.oCY-MSL9c9GSvt2Osf7Q-Z9XRA_OhgXjP_kETdwFps4'
-                        };
-                        resolve({ ok: true, text: () => Promise.resolve(JSON.stringify(responseJson)) });
+                        }
+                        resolve({ ok: true, text: () => Promise.resolve(JSON.stringify(responseJson)) })
                     } else {
                         // else return error
                         reject('Username or password is incorrect');
