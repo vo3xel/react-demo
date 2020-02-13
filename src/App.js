@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { userActions } from './actions'
 import { authActions } from './actions'
 import { UserDetails } from './components/UserDetails'
+import { ThreeScene } from './components/ThreeScene'
 
 export default () => {
 
@@ -14,6 +15,7 @@ export default () => {
 
   return (
     <div className="App">
+      <ThreeScene />
       <img src={logo} className="App-logo" alt="logo" />
       <h1>A dockerized state-of-the-art react application with react 16, JWT token, redux, fake-backend, styled components and react testing library</h1>
       { userId && <UserDetails /> }
