@@ -7,7 +7,7 @@ This repo holds a dockerized state-of-the-art react application with react 16, J
 
 ## Environment
 
-* Docker Community Edition (https://www.docker.com/)[https://www.docker.com/]
+* Docker Community Edition [https://www.docker.com/](https://www.docker.com/)
 * NodeJS LTS version (no installation, is provided within the docker image)
 * Yarn 2 (no installation, is provided within the docker image)
 * Visual Studio Code with extensions (recommended)
@@ -69,5 +69,5 @@ docker-compose -f .\docker-compose-prod.yml up
 ## Credits
 
 This repo follows principles found in several sources and combines the most valuable approaches in this demo repository.
-* React + Redux - JWT Authentication Tutorial & Example => (https://jasonwatmore.com/post/2017/12/07/react-redux-jwt-authentication-tutorial-example)[https://jasonwatmore.com/post/2017/12/07/react-redux-jwt-authentication-tutorial-example]
-* Dockerizing a React App => (https://mherman.org/blog/dockerizing-a-react-app/)[https://mherman.org/blog/dockerizing-a-react-app/]
+* React + Redux - JWT Authentication Tutorial & Example => [https://jasonwatmore.com/post/2017/12/07/react-redux-jwt-authentication-tutorial-example](https://jasonwatmore.com/post/2017/12/07/react-redux-jwt-authentication-tutorial-example)
+* Dockerizing a React App => [https://mherman.org/blog/dockerizing-a-react-app/](https://mherman.org/blog/dockerizing-a-react-app/)
