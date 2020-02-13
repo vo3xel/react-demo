@@ -1,0 +1,12 @@
+.vscode
+.yarn
+build
+node_modules
+.dockerignore
+.gitignore
+.pnp.js
+.yarnrc.yml
+dev.Dockerfile
+docker-compose-dev.yml
+docker-compose-prod.yml
+prod.Dockerfile

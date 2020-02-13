@@ -2,9 +2,6 @@
   "name": "react-demo",
   "version": "0.1.0",
   "private": true,
-  "os": [
-    "win32"
-  ],
   "dependencies": {
     "@testing-library/dom": ">=5",
     "@testing-library/jest-dom": "^4.2.4",
