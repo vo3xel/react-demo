@@ -8,7 +8,7 @@ const initialState = { auth: { }, user: {}}
 const mockStore = configureStore()
 let store,wrapper
 
-test('renders learn react link', () => {
+test('renders react 16 text', () => {
   store = mockStore(initialState)
   const { getByText } = render(<Provider store={store}><App /></Provider>)
   const element = getByText(/react application with react 16/i)

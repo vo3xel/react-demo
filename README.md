@@ -1,7 +1,7 @@
 
 # react-demo
 
-This repo holds a dockerized state-of-the-art react application with react 16, JWT token, redux, fake-backend, styled components and react testing library.
+This repo holds a dockerized state-of-the-art react application with react 16, JWT token, redux, fake-backend, styled components and react testing library. Additionally a demo of the threejs lib is included.
 
 # Setup
 
@@ -72,3 +72,4 @@ This repo follows principles found in several sources and combines the most valu
 * React + Redux - JWT Authentication Tutorial & Example => [https://jasonwatmore.com/post/2017/12/07/react-redux-jwt-authentication-tutorial-example](https://jasonwatmore.com/post/2017/12/07/react-redux-jwt-authentication-tutorial-example)
 * Dockerizing a React App => [https://mherman.org/blog/dockerizing-a-react-app/](https://mherman.org/blog/dockerizing-a-react-app/)
 * React three fiber demo => [https://codesandbox.io/s/react-three-fiber-demo-cw055?from-embed](https://codesandbox.io/s/react-three-fiber-demo-cw055?from-embed)
+* React threejs demo (package: react-three-fiber) => [https://github.com/react-spring/react-three-fiber](https://github.com/react-spring/react-three-fiber)
