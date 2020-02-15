@@ -3,6 +3,8 @@
 
 This repo holds a dockerized state-of-the-art react application with react 16, threejs, JWT token, redux, fake-backend, bootstrap, styled components and react testing library.
 
+The app is available online => [https://michaelspitzer.at/react-demo/](https://michaelspitzer.at/react-demo/)
+
 # Setup
 
 ## Environment
