@@ -10,6 +10,7 @@ This repo holds a dockerized state-of-the-art react application with react 16, t
 * Docker Community Edition [https://www.docker.com/](https://www.docker.com/)
 * NodeJS LTS version (no installation, is provided within the docker image)
 * Yarn 2 (no installation, is provided within the docker image)
+* GitHub Desktop (recommended) [https://desktop.github.com/](https://desktop.github.com/) 
 * Visual Studio Code with extensions (recommended)
     * Docker
     * Debugger for Chrome
