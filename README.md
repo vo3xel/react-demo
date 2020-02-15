@@ -1,7 +1,7 @@
 
 # react-demo
 
-This repo holds a dockerized state-of-the-art react application with react 16, JWT token, redux, fake-backend, styled components and react testing library. Additionally a demo of the threejs lib is included.
+This repo holds a dockerized state-of-the-art react application with react 16, threejs, JWT token, redux, fake-backend, bootstrap, styled components and react testing library.
 
 # Setup
 

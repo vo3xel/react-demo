@@ -1185,7 +1185,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:7.8.4, @babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.3.4, @babel/runtime@npm:^7.4.5, @babel/runtime@npm:^7.5.1, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.6.3, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.4, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.7.7":
+"@babel/runtime@npm:7.8.4, @babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.3.4, @babel/runtime@npm:^7.4.2, @babel/runtime@npm:^7.4.5, @babel/runtime@npm:^7.5.1, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.6.3, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.4, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.7.7":
   version: 7.8.4
   resolution: "@babel/runtime@npm:7.8.4"
   dependencies:
@@ -1205,7 +1205,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/traverse@npm:^7.0.0, @babel/traverse@npm:^7.1.0, @babel/traverse@npm:^7.4.3, @babel/traverse@npm:^7.4.5, @babel/traverse@npm:^7.8.3, @babel/traverse@npm:^7.8.4":
+"@babel/traverse@npm:^7.0.0, @babel/traverse@npm:^7.1.0, @babel/traverse@npm:^7.4.3, @babel/traverse@npm:^7.8.3, @babel/traverse@npm:^7.8.4":
   version: 7.8.4
   resolution: "@babel/traverse@npm:7.8.4"
   dependencies:
@@ -1259,7 +1259,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/is-prop-valid@npm:^0.8.3":
+"@emotion/is-prop-valid@npm:^0.8.1":
   version: 0.8.6
   resolution: "@emotion/is-prop-valid@npm:0.8.6"
   dependencies:
@@ -1275,17 +1275,47 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/stylis@npm:^0.8.4":
-  version: 0.8.5
-  resolution: "@emotion/stylis@npm:0.8.5"
-  checksum: 2/bb43a77f784cce86f7a625519544aab56b8f341117957f7dd15315398780289784bd2ec0ba1bc1b19ac639bdb304a4ed08b1f8e3e4c13e8063b9824e551b3994
-  languageName: node
-  linkType: hard
-
-"@emotion/unitless@npm:^0.7.4":
+"@emotion/unitless@npm:^0.7.0":
   version: 0.7.5
   resolution: "@emotion/unitless@npm:0.7.5"
   checksum: 2/0be366ef09860037ef08aed0450cb5510f4be25886005e2f120f8e8b7385de6b41ac47df5b9bd55781e5153853e9ed5f49aa517dcbad34cc23bd8afb0201932a
+  languageName: node
+  linkType: hard
+
+"@fortawesome/fontawesome-common-types@npm:^0.2.27":
+  version: 0.2.27
+  resolution: "@fortawesome/fontawesome-common-types@npm:0.2.27"
+  checksum: 2/27c2f0e2dedb02e7dc72855e9b14f18988bb59bf826238931a00e2ebed83f2974c5fcad1b828d2ce44e27bb3777bf3c1f413ba4c2c575fa5403b20b1dd49b3ee
+  languageName: node
+  linkType: hard
+
+"@fortawesome/fontawesome-svg-core@npm:^1.2.27":
+  version: 1.2.27
+  resolution: "@fortawesome/fontawesome-svg-core@npm:1.2.27"
+  dependencies:
+    "@fortawesome/fontawesome-common-types": ^0.2.27
+  checksum: 2/9e9218dd5fb67df9c5dba0f4699303a91cdad31f62b4009112d73ebcc47ee60f5512e6e2dd7f8a956b429744bad852726f332904fb901c42f70d82383172b40f
+  languageName: node
+  linkType: hard
+
+"@fortawesome/free-solid-svg-icons@npm:^5.12.1":
+  version: 5.12.1
+  resolution: "@fortawesome/free-solid-svg-icons@npm:5.12.1"
+  dependencies:
+    "@fortawesome/fontawesome-common-types": ^0.2.27
+  checksum: 2/ba9c21c9bdbcb9124706cda8eadb5c2d2bf2978209351b4d4d702a51109570f53881cf6d8fba2b99ab7187e63caec7f4aab69f1bf6429965b3bc814de8ec6941
+  languageName: node
+  linkType: hard
+
+"@fortawesome/react-fontawesome@npm:^0.1.8":
+  version: 0.1.8
+  resolution: "@fortawesome/react-fontawesome@npm:0.1.8"
+  dependencies:
+    prop-types: ^15.5.10
+  peerDependencies:
+    "@fortawesome/fontawesome-svg-core": ^1.2.20
+    react: 16.x
+  checksum: 2/3092e0ac4f0a2f25ee7d68f58e2405835d57c5e9033094bd723b030b0c71654a2679497fb0f0941aa56b7c5e51e43f7e18430f66b18ef0246be2c1293ff5a5ed
   languageName: node
   linkType: hard
 
@@ -1520,6 +1550,24 @@ __metadata:
   version: 1.1.3
   resolution: "@nodelib/fs.stat@npm:1.1.3"
   checksum: 2/351499088e1b332e48a187e7d4b6bbbd84459970f5b4a7155dbd67ee4a5af766f5f2ca49ff19af8ee29cc16a130eafa7968b64f966498a7bf94d5d8032dd7ec0
+  languageName: node
+  linkType: hard
+
+"@restart/context@npm:^2.1.4":
+  version: 2.1.4
+  resolution: "@restart/context@npm:2.1.4"
+  peerDependencies:
+    react: ">=16.3.2"
+  checksum: 2/f9dd1416c16988b5bd66d3306dedfc9b95665d3af2c5b88cd2040b0825dfcf778eb9bd992c6e810c62187f981a78ea34923fb582a023f896079634edb3b1bc2c
+  languageName: node
+  linkType: hard
+
+"@restart/hooks@npm:^0.3.11, @restart/hooks@npm:^0.3.12":
+  version: 0.3.20
+  resolution: "@restart/hooks@npm:0.3.20"
+  peerDependencies:
+    react: ^16.8.0
+  checksum: 2/ae904b0e79d93004844b618e0ada4da98772c5d69e3c5b2dfcabecec7e81e0da44b795e5db30110441c1d4151d30ad21cb181702776f12bf10eac5c31b76d8c1
   languageName: node
   linkType: hard
 
@@ -1865,7 +1913,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
+"@types/react@npm:*, @types/react@npm:^16.8.23, @types/react@npm:^16.9.11":
   version: 16.9.19
   resolution: "@types/react@npm:16.9.19"
   dependencies:
@@ -3069,6 +3117,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bootstrap@npm:^4.4.1":
+  version: 4.4.1
+  resolution: "bootstrap@npm:4.4.1"
+  peerDependencies:
+    jquery: 1.9.1 - 3
+    popper.js: ^1.16.0
+  checksum: 2/6dd8f4c905c651619b93f9fde7b28131304f390ac276a61cc2ea64b38868e4a5cb71b144cca134b16fff0d518a73a75df2910eb734fd7ccafaad626466bd489c
+  languageName: node
+  linkType: hard
+
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
   resolution: "brace-expansion@npm:1.1.11"
@@ -3578,6 +3636,13 @@ __metadata:
     isobject: ^3.0.0
     static-extend: ^0.1.1
   checksum: 2/6411679ad4d2bde81b62ad721d4771d108d5d8ef32805d10ebfa6f1d6bdcfd5cb6dfea5232b85221f079e42691c36cf2db05a5e76b87ba8f6deb37a2c23a4a41
+  languageName: node
+  linkType: hard
+
+"classnames@npm:^2.2.6":
+  version: 2.2.6
+  resolution: "classnames@npm:2.2.6"
+  checksum: 2/490eaeca5931846737ffd33e472a701d268d5b8bc5717dd4cf108a127b06e86e05350e06799abbbe763a0e4c945b4217f6700b7ae00ddc703505682c370e5cf2
   languageName: node
   linkType: hard
 
@@ -4205,14 +4270,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-to-react-native@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "css-to-react-native@npm:3.0.0"
+"css-to-react-native@npm:^2.2.2":
+  version: 2.3.2
+  resolution: "css-to-react-native@npm:2.3.2"
   dependencies:
     camelize: ^1.0.0
     css-color-keywords: ^1.0.0
-    postcss-value-parser: ^4.0.2
-  checksum: 2/d035e1a126cdec0cc52eba94c2294fae2474fdc9b8c971aa64e883f429791cc121726f7a9f390f9b593432691dd21c615c1a85c248ba5085b576e718fc6f739d
+    postcss-value-parser: ^3.3.0
+  checksum: 2/9554fd8eb2be3967bde3f6edcfb5bddb95955b6e57cb3979e9426228d5218fa40fec180e7c89039cd695a5f41b7ab94eebeac83826564a5095f15cb758df5369
   languageName: node
   linkType: hard
 
@@ -4400,6 +4465,13 @@ __metadata:
   version: 2.6.8
   resolution: "csstype@npm:2.6.8"
   checksum: 2/85b5d49e69844d184b6eceb2df107cc0476c3fd2990f81ae34e68dcec38466905c5b1476a6c258240b61428a927df09c89442527063a0ea601620cc9bbe34ae3
+  languageName: node
+  linkType: hard
+
+"csstype@npm:^2.6.7":
+  version: 2.6.9
+  resolution: "csstype@npm:2.6.9"
+  checksum: 2/fb00716951a932ac3450546c65d761a75c133091b44db9aec0be07c2ca06a38141d6e059ad839035feea9abb0faee90aadcad6b73e7be0250c66602fd7a49f3a
   languageName: node
   linkType: hard
 
@@ -4761,6 +4833,16 @@ __metadata:
   dependencies:
     utila: ~0.4
   checksum: 2/437b4464bd3c5e654decf855f9263e939d633d7bb720512f9a400b3e1005d870eb4a5fbead7d9ccb7849f7df5ee30c62f9a56b68143c13575ae5fef16007742c
+  languageName: node
+  linkType: hard
+
+"dom-helpers@npm:^5.0.1, dom-helpers@npm:^5.1.0, dom-helpers@npm:^5.1.2":
+  version: 5.1.3
+  resolution: "dom-helpers@npm:5.1.3"
+  dependencies:
+    "@babel/runtime": ^7.6.3
+    csstype: ^2.6.7
+  checksum: 2/e90dd080b2ff76e6b2eba84d6df45b8296a894e1741f20fef481a138ff25b8c871dfdf366bc4a358ce2c78f4eb0c2faee1bb486f5fcf9460001183fc68eba6e7
   languageName: node
   linkType: hard
 
@@ -6450,7 +6532,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"hoist-non-react-statics@npm:^3.0.0, hoist-non-react-statics@npm:^3.3.0":
+"hoist-non-react-statics@npm:^3.3.0":
   version: 3.3.2
   resolution: "hoist-non-react-statics@npm:3.3.2"
   dependencies:
@@ -7299,6 +7381,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"is-what@npm:^3.3.1":
+  version: 3.6.0
+  resolution: "is-what@npm:3.6.0"
+  checksum: 2/33f49827a343fe9d33e2a339848595239939bfbdb237c0b158a54c5ebf77456015fed99f47bc408c2219e0d725d18651849d4b32d47fad82ed11ecb7bee11e3b
+  languageName: node
+  linkType: hard
+
 "is-windows@npm:^1.0.2":
   version: 1.0.2
   resolution: "is-windows@npm:1.0.2"
@@ -7867,6 +7956,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"jquery@npm:^3.0.0":
+  version: 3.4.1
+  resolution: "jquery@npm:3.4.1"
+  checksum: 2/918300d1c768ae029bc88be13dc248ae0e82e1282f0353a6cced10ba6dabb70342a581777dc594da339c1beec7a04d3754358934a098c6627c35c6fb7d9af440
+  languageName: node
+  linkType: hard
+
 "js-tokens@npm:^3.0.0 || ^4.0.0, js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -8097,6 +8193,13 @@ fsevents@^1.2.7:
     array-includes: ^3.0.3
     object.assign: ^4.1.0
   checksum: 2/a5eaa22bb221067f8ead1dd82aa9ae53c737ff5dc788934d9f509c058da62445ee9b86d06f7cf8d875bce7ebbb581ffe18400c6c48f6a64ac896929bce66e0e7
+  languageName: node
+  linkType: hard
+
+"keycode@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "keycode@npm:2.2.0"
+  checksum: 2/f417ba53db8eee6dde1b01d0dae4658b3a07cfbff7e6ce0a74e5a2346b088b98daf13d979fec6f05eba2c6fc169c8799bfdcf73049a9db5036a566f465796f70
   languageName: node
   linkType: hard
 
@@ -8500,6 +8603,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"memoize-one@npm:^5.0.0":
+  version: 5.1.1
+  resolution: "memoize-one@npm:5.1.1"
+  checksum: 2/e7c4a9cceca71334bf09c38818c375a280dc6e8ec03a92701c16199763269ce756b7b0b370f4b464c071045349fb7b3e4a3cc7460a3f46a277f394d8634a6eb5
+  languageName: node
+  linkType: hard
+
 "memory-fs@npm:^0.4.1":
   version: 0.4.1
   resolution: "memory-fs@npm:0.4.1"
@@ -8517,6 +8627,15 @@ fsevents@^1.2.7:
     errno: ^0.1.3
     readable-stream: ^2.0.1
   checksum: 2/deb916f33ca09215d6ad58db30854bbf36aaca86e018dcbbbdb7c6160661e8c0b9acdcc23c9931fc6dcd62f3dd5318a7ecab519e3688f7787d0833e5f48c0d0a
+  languageName: node
+  linkType: hard
+
+"merge-anything@npm:^2.2.4":
+  version: 2.4.4
+  resolution: "merge-anything@npm:2.4.4"
+  dependencies:
+    is-what: ^3.3.1
+  checksum: 2/33c3bd5e5e59c7ebe5ebf0b94bdc21fda20060ac6d4c0f86ab02b751ce1643600d112bc73fa1f5903142b8f4417eea87f7388617cb001bf99899eadfe601ddfa
   languageName: node
   linkType: hard
 
@@ -9947,6 +10066,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"popper.js@npm:^1.15.0, popper.js@npm:^1.16.0":
+  version: 1.16.1
+  resolution: "popper.js@npm:1.16.1"
+  checksum: 2/eb53806fb7680e31c7d1db096f95438a40a7cb869f7ee0e27100c0860f11583a0d322606c6073618e7fe8865f834ec36482901b547256d9a0cf2b22434bca75d
+  languageName: node
+  linkType: hard
+
 "portfinder@npm:^1.0.25":
   version: 1.0.25
   resolution: "portfinder@npm:1.0.25"
@@ -10732,7 +10858,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"postcss-value-parser@npm:^3.0.0, postcss-value-parser@npm:^3.3.1":
+"postcss-value-parser@npm:^3.0.0, postcss-value-parser@npm:^3.3.0, postcss-value-parser@npm:^3.3.1":
   version: 3.3.1
   resolution: "postcss-value-parser@npm:3.3.1"
   checksum: 2/834603f6bd822846cc20b1f95e648dea67353eb506898cc5fb540b32e9a956c1030754b9503270eb00c61c3734409d7ec94fba2b4f0a89954bc855bad7e9267c
@@ -10885,7 +11011,19 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.6.2, prop-types@npm:^15.7.2":
+"prop-types-extra@npm:^1.1.0":
+  version: 1.1.1
+  resolution: "prop-types-extra@npm:1.1.1"
+  dependencies:
+    react-is: ^16.3.2
+    warning: ^4.0.0
+  peerDependencies:
+    react: ">=0.14.0"
+  checksum: 2/f1f1cc23b95423615da6ab3ad5726a228011c64612fc77cb773a507437d34543d16758d5ec54fa987611c85e7de6fc4f44e8d3fcec9e343fa5578bca8a09378a
+  languageName: node
+  linkType: hard
+
+"prop-types@npm:^15.5.10, prop-types@npm:^15.5.4, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2":
   version: 15.7.2
   resolution: "prop-types@npm:15.7.2"
   dependencies:
@@ -11113,17 +11251,50 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"react-bootstrap@npm:^1.0.0-beta.16":
+  version: 1.0.0-beta.16
+  resolution: "react-bootstrap@npm:1.0.0-beta.16"
+  dependencies:
+    "@babel/runtime": ^7.4.2
+    "@restart/context": ^2.1.4
+    "@restart/hooks": ^0.3.11
+    "@types/react": ^16.8.23
+    classnames: ^2.2.6
+    dom-helpers: ^5.1.2
+    invariant: ^2.2.4
+    keycode: ^2.2.0
+    popper.js: ^1.16.0
+    prop-types: ^15.7.2
+    prop-types-extra: ^1.1.0
+    react-overlays: ^2.1.0
+    react-transition-group: ^4.0.0
+    uncontrollable: ^7.0.0
+    warning: ^4.0.3
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: 2/8be561a7f099d25b3be1fe462cccafa50e79eb3b99c2a32d5b09a3dea47b841b98d81f1d43266c30816054e2bd9890190f5cec3b14a9340b65529a5293449bf4
+  languageName: node
+  linkType: hard
+
 "react-demo@workspace:.":
   version: 0.0.0-use.local
   resolution: "react-demo@workspace:."
   dependencies:
+    "@fortawesome/fontawesome-svg-core": ^1.2.27
+    "@fortawesome/free-solid-svg-icons": ^5.12.1
+    "@fortawesome/react-fontawesome": ^0.1.8
     "@testing-library/dom": ">=5"
     "@testing-library/jest-dom": ^4.2.4
     "@testing-library/react": ^9.3.2
     "@testing-library/user-event": ^7.1.2
+    bootstrap: ^4.4.1
     history: ^4.10.1
+    jquery: ^3.0.0
+    popper.js: ^1.16.0
     prettier: ^1.19.1
     react: ^16.12.0
+    react-bootstrap: ^1.0.0-beta.16
     react-dom: ^16.12.0
     react-global-configuration: ^1.4.0
     react-is: ">=16.8.0"
@@ -11134,7 +11305,7 @@ fsevents@^1.2.7:
     redux-logger: ^3.0.6
     redux-mock-store: ^1.5.4
     redux-thunk: ^2.3.0
-    styled-components: ^5.0.1
+    styled-components: ^4.4.0
     three: ">=0.113"
   languageName: unknown
   linkType: soft
@@ -11203,10 +11374,17 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-is@npm:>=16.8.0, react-is@npm:^16.7.0, react-is@npm:^16.8.1, react-is@npm:^16.8.4, react-is@npm:^16.9.0":
+"react-is@npm:>=16.8.0, react-is@npm:^16.3.2, react-is@npm:^16.6.0, react-is@npm:^16.7.0, react-is@npm:^16.8.1, react-is@npm:^16.8.4, react-is@npm:^16.9.0":
   version: 16.12.0
   resolution: "react-is@npm:16.12.0"
   checksum: 2/ddcafd1c3f37118880c7d21720d8481842b1cda8f2724d81a1c103919c5764a697fefd65451396d47ac634ea7850df7829ef0b1094a84b1d18fbfa0c9400b7c9
+  languageName: node
+  linkType: hard
+
+"react-lifecycles-compat@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "react-lifecycles-compat@npm:3.0.4"
+  checksum: 2/82176a55ef7526414d770d5e07dc1d28b4c7f20281f22c6f53f3a98df9dbbb5d70c94bebee57b4ea8ccc2eee430b907ca7b564a42fbdd0ed21e7c43bfee35404
   languageName: node
   linkType: hard
 
@@ -11214,6 +11392,24 @@ fsevents@^1.2.7:
   version: 1.0.0
   resolution: "react-merge-refs@npm:1.0.0"
   checksum: 2/65dd7316a1595076a3a38c571f24481800ccfdc025121710f722c7a597d78cfc1f89c7f25dd3b07dbce48295fa25b550266db75330e5d71c38422a55ceb545aa
+  languageName: node
+  linkType: hard
+
+"react-overlays@npm:^2.1.0":
+  version: 2.1.1
+  resolution: "react-overlays@npm:2.1.1"
+  dependencies:
+    "@babel/runtime": ^7.4.5
+    "@restart/hooks": ^0.3.12
+    dom-helpers: ^5.1.0
+    popper.js: ^1.15.0
+    prop-types: ^15.7.2
+    uncontrollable: ^7.0.0
+    warning: ^4.0.3
+  peerDependencies:
+    react: ">=16.3.0"
+    react-dom: ">=16.3.0"
+  checksum: 2/0bd206cb7055acfd581f40867b97a977dff3d4e9c3173900e40d7536998cfd44f24be39897b1be23ebfa968b6d77e4aab56ce02fa5171fc7fa33d83835075e02
   languageName: node
   linkType: hard
 
@@ -11354,6 +11550,21 @@ fsevents@^1.2.7:
     react-dom: ">=16.12"
     three: ">=0.113"
   checksum: 2/7ac9f25d57592a5b4911d24532addd3061e3ab6fd734739565677f9ba90c38e8b67609e4bad91467eb747750f633132dea72416e30713ff0f4d46a010ae96656
+  languageName: node
+  linkType: hard
+
+"react-transition-group@npm:^4.0.0":
+  version: 4.3.0
+  resolution: "react-transition-group@npm:4.3.0"
+  dependencies:
+    "@babel/runtime": ^7.5.5
+    dom-helpers: ^5.0.1
+    loose-envify: ^1.4.0
+    prop-types: ^15.6.2
+  peerDependencies:
+    react: ">=16.6.0"
+    react-dom: ">=16.6.0"
+  checksum: 2/6d87fce48b825439175f8889ed0ecb0eca915e84933033f88d33e20fc0a5c1673cc482fb6a96e86a6f4120b56fdd80a276d424aff7e8384fbb240ff6f7206850
   languageName: node
   linkType: hard
 
@@ -12278,13 +12489,6 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"shallowequal@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "shallowequal@npm:1.1.0"
-  checksum: 2/15820dd544ce15521565c366940a46dcbe0f093c1336f6259c7b3e2490ca10135645ee262778f555d3ccc38283207f2f0a41e9a0f26888b5d5159f2904c4ac68
-  languageName: node
-  linkType: hard
-
 "shebang-command@npm:^1.2.0":
   version: 1.2.0
   resolution: "shebang-command@npm:1.2.0"
@@ -12915,25 +13119,27 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"styled-components@npm:^5.0.1":
-  version: 5.0.1
-  resolution: "styled-components@npm:5.0.1"
+"styled-components@npm:^4.4.0":
+  version: 4.4.1
+  resolution: "styled-components@npm:4.4.1"
   dependencies:
     "@babel/helper-module-imports": ^7.0.0
-    "@babel/traverse": ^7.4.5
-    "@emotion/is-prop-valid": ^0.8.3
-    "@emotion/stylis": ^0.8.4
-    "@emotion/unitless": ^0.7.4
+    "@babel/traverse": ^7.0.0
+    "@emotion/is-prop-valid": ^0.8.1
+    "@emotion/unitless": ^0.7.0
     babel-plugin-styled-components: ">= 1"
-    css-to-react-native: ^3.0.0
-    hoist-non-react-statics: ^3.0.0
-    shallowequal: ^1.1.0
+    css-to-react-native: ^2.2.2
+    memoize-one: ^5.0.0
+    merge-anything: ^2.2.4
+    prop-types: ^15.5.4
+    react-is: ^16.6.0
+    stylis: ^3.5.0
+    stylis-rule-sheet: ^0.0.10
     supports-color: ^5.5.0
   peerDependencies:
-    react: ">= 16.8.0"
-    react-dom: ">= 16.8.0"
-    react-is: ">= 16.8.0"
-  checksum: 2/1cf95ad925997f846da839cb052f104bca3a111b171c0b75647eef2335568bb20a0f2ea828c45808bf9291faca0a0b93f31975b552a2f25cade0122a5191b7d9
+    react: ">= 16.3.0"
+    react-dom: ">= 16.3.0"
+  checksum: 2/5541cf5c63218ecade523ad230ee198cdb475a06757e5fe8922731710b240ac1c0cceb5600672b803d502916c8c6074d8f6c1aad55bc36146c9f4f4accf7d27a
   languageName: node
   linkType: hard
 
@@ -12945,6 +13151,22 @@ resolve@1.1.7:
     postcss: ^7.0.0
     postcss-selector-parser: ^3.0.0
   checksum: 2/1345ad348db3c98f7d0423762e13e816a8c1ba0b1d90d79f3528513be429f1cf68b7fa9c9d379870208586e7ff4cfb68b4121bbd904df03b17e84d62efcff288
+  languageName: node
+  linkType: hard
+
+"stylis-rule-sheet@npm:^0.0.10":
+  version: 0.0.10
+  resolution: "stylis-rule-sheet@npm:0.0.10"
+  peerDependencies:
+    stylis: ^3.5.0
+  checksum: 2/89c5e8a72bf0dab4882464bd1e23db100956217d2851b6ff2c7a9d72274df68072528c82f5d7cda92d91aa455095d8adc2b97ff0f88b3a707fcbcdc485df970c
+  languageName: node
+  linkType: hard
+
+"stylis@npm:^3.5.0":
+  version: 3.5.4
+  resolution: "stylis@npm:3.5.4"
+  checksum: 2/356e2352b1800595c46f3969c6afdce82ab3e5d668bbb6733e68a4968fa2190208cccd74129b7456e80ade3d321beeaff7c2c69ab90288127221062f90dcff99
   languageName: node
   linkType: hard
 
@@ -13411,6 +13633,20 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
+"uncontrollable@npm:^7.0.0":
+  version: 7.1.1
+  resolution: "uncontrollable@npm:7.1.1"
+  dependencies:
+    "@babel/runtime": ^7.6.3
+    "@types/react": ^16.9.11
+    invariant: ^2.2.4
+    react-lifecycles-compat: ^3.0.4
+  peerDependencies:
+    react: ">=15.0.0"
+  checksum: 2/208d397c41bb8293e884dc615dfeb1163c14d470e4a677e9afb695ce8cc339bbe8cafb1e8e6c8d20d3b826621bacf07906ce65fee9667b8e5f1f08f42bf9e3d7
+  languageName: node
+  linkType: hard
+
 "unicode-canonical-property-names-ecmascript@npm:^1.0.4":
   version: 1.0.4
   resolution: "unicode-canonical-property-names-ecmascript@npm:1.0.4"
@@ -13757,6 +13993,15 @@ resolve@1.1.7:
   dependencies:
     makeerror: 1.0.x
   checksum: 2/c014f264c473fc4464ba8f59eb9f7ffa1c0cf2c83b65353de28a6012d8dd29e974bf2b0fbd5c71231f56762a3ea0d970b635f7d6f6d670ff83f426741ce6a4da
+  languageName: node
+  linkType: hard
+
+"warning@npm:^4.0.0, warning@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "warning@npm:4.0.3"
+  dependencies:
+    loose-envify: ^1.0.0
+  checksum: 2/20ef5d29ff9c20af3060e504914a00d5a90ce346e75e6691efbedb540481cdc82070c966d75195f812de64bb0bd7f1b02315fcb52469db151c0f15e29002781c
   languageName: node
   linkType: hard
 

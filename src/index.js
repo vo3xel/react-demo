@@ -8,6 +8,8 @@ import { configureFakeBackend } from './helpers'
 import config from 'react-global-configuration'
 import { configuration } from './config/dev'
 import { default as App } from './App'
+import { MenuBar } from './components/MenuBar'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const rootElement = document.getElementById('root')
 
@@ -21,6 +23,7 @@ if(config.get('configureFakeBackend')){
 
 ReactDOM.render(
     <Provider store={store}>
+        <MenuBar />
         <App />
     </Provider>,
     rootElement
