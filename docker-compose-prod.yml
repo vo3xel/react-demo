@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+
+  react-demo:
+    container_name: react-demo
+    build:
+      context: .
+      dockerfile: prod.Dockerfile
+    ports:
+      - '80:80'
