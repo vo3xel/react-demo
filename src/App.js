@@ -25,7 +25,7 @@ export default () => {
         { !userId && <Row className="justify-content-center"><img src={logo} className="App-logo" alt="logo" /></Row> }
         { userId && <Row><ThreeScene /></Row> }
         <Row className="mb-3">
-          <StyledDiv>A dockerized state-of-the-art react application with react 16, JWT token, redux, fake-backend, styled components and react testing library</StyledDiv>
+          <StyledDiv>A dockerized state-of-the-art react application with react 16, threejs, JWT token, redux, fake-backend, bootstrap, styled components and react testing library</StyledDiv>
         </Row>
         { userId && <UserDetails /> }
       </Container>
