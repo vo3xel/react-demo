@@ -6125,7 +6125,7 @@ fsevents@^1.2.7:
 
 "fsevents@patch:fsevents@2.1.2#builtin<compat/fsevents>, fsevents@patch:fsevents@~2.1.2#builtin<compat/fsevents>":
   version: 2.1.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.1.2#builtin<compat/fsevents>::version=2.1.2&hash=77dfe6"
+  resolution: "fsevents@patch:fsevents@npm%3A2.1.2#builtin<compat/fsevents>::version=2.1.2&hash=495457"
   dependencies:
     node-gyp: latest
   checksum: 2/6fb6ae0c1e5aca68fec6c0bf119d0dc9a1d653af60925c7ec69868f0ac68fa6930eeb769745030ecb560e00c144c74068da62bb77a000cc7dc263963ba4e2d7f
@@ -6134,7 +6134,7 @@ fsevents@^1.2.7:
 
 "fsevents@patch:fsevents@^1.2.7#builtin<compat/fsevents>":
   version: 1.2.11
-  resolution: "fsevents@patch:fsevents@npm%3A1.2.11#builtin<compat/fsevents>::version=1.2.11&hash=77dfe6"
+  resolution: "fsevents@patch:fsevents@npm%3A1.2.11#builtin<compat/fsevents>::version=1.2.11&hash=495457"
   dependencies:
     bindings: ^1.5.0
     nan: ^2.12.1
@@ -12055,14 +12055,14 @@ resolve@1.1.7:
 
 "resolve@patch:resolve@1.1.7#builtin<compat/resolve>":
   version: 1.1.7
-  resolution: "resolve@patch:resolve@npm%3A1.1.7#builtin<compat/resolve>::version=1.1.7&hash=8fccd0"
+  resolution: "resolve@patch:resolve@npm%3A1.1.7#builtin<compat/resolve>::version=1.1.7&hash=e7677c"
   checksum: 2/5238277188664a6948dd7288d16f1a09e098fb36d4f9b2c749130969c998faa9bccefd30fd618073af5210fdc768730cadfc15588bbee4fc64b257f20cab6783
   languageName: node
   linkType: hard
 
 "resolve@patch:resolve@1.15.0#builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#builtin<compat/resolve>, resolve@patch:resolve@^1.13.1#builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#builtin<compat/resolve>, resolve@patch:resolve@^1.3.2#builtin<compat/resolve>, resolve@patch:resolve@^1.8.1#builtin<compat/resolve>":
   version: 1.15.0
-  resolution: "resolve@patch:resolve@npm%3A1.15.0#builtin<compat/resolve>::version=1.15.0&hash=8fccd0"
+  resolution: "resolve@patch:resolve@npm%3A1.15.0#builtin<compat/resolve>::version=1.15.0&hash=e7677c"
   dependencies:
     path-parse: ^1.0.6
   checksum: 2/a977306c59618000d5954b2fb9d6c100c15f2c4df6acdab3e86bdbd3ae1e8d52e89cbbf19e6dce93ce535af1bba097c26332b1a0f85fd4daa45943ec06d90fe8
