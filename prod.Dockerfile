@@ -1,5 +1,5 @@
 # base image
-FROM node:lts-alpine
+FROM node:lts-alpine as build
 
 # set working directory
 WORKDIR /app
@@ -20,6 +20,6 @@ RUN yarn build
 
 # production environment
 FROM nginx:1.16.0-alpine
-COPY --from=build /app/build /usr/share/nginx/html
+COPY --from=build /app/build /usr/share/nginx/html/react-demo
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
