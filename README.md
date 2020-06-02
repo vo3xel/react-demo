@@ -66,7 +66,7 @@ docker-compose -f .\docker-compose-dev.yml up
 The production environment can be started with: 
 
 ```shell
-docker-compose -f .\docker-compose-prod.yml up
+docker-compose -f .\docker-compose-prod.yml up --build
 ```
 The production prototype is then running on [http://localhost/react-demo](http://localhost/react-demo).
 
