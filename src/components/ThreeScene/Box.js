@@ -9,9 +9,23 @@ export default (props) => {
     
     const { boxScale } = useSelector(state => state.three)
 
-    const mesh = useRef()
-    
-    useFrame(() => (mesh.current.rotation.x = mesh.current.rotation.y += 0.01))
+
+
+    const mesh = useRef() //useRef to access mesh of cube
+    //animation and movement
+    useFrame(() => 
+    {
+      if (hovered && !active)
+      {
+        mesh.current.rotation.z += 0.01
+        mesh.current.rotation.x += 0.01
+      }
+      if(hovered && active)
+      {
+        mesh.current.rotation.y += 0.02
+        mesh.current.rotation.x += 0.06
+      }
+    })
 
     return (
         <mesh
@@ -21,7 +35,8 @@ export default (props) => {
         onClick={e => setActive(!active)}
         onPointerOver={e => setHover(true)}
         onPointerOut={e => setHover(false)}>
-        <boxBufferGeometry attach="geometry" args={[1, 1, 1]} />
+        
+        <coneBufferGeometry attach="geometry" args={[2, 2, 10]} />
         <meshStandardMaterial attach="material" color={hovered ? 'hotpink' : 'orange'} />
       </mesh>
     )

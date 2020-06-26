@@ -14,6 +14,7 @@ export default () => {
                 <pointLight position={[10, 10, 10]} />
                 <Box position={[-4, 0, 0]} />
                 <Box position={[4, 0, 0]} />
+                <Box position={[0, 0, 0]} />
             </Provider>
         </Canvas>
     )
